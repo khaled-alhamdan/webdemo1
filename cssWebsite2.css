@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.imgBackground {
+  height: 90vh; /* 100% of view port height */
+  background-image: url("./pic3.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  padding: 12px;
+  max-width: 1920px;
+  min-width: 400px;
+  height: 10%;
+  display: block;
+  background-color: rgb(37, 37, 37);
+}
+
+.container1 {
+  text-decoration: none;
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin: -30px 0px;
+}
+
+.logo {
+  text-decoration: none;
+  padding: 0px 0px;
+}
+
+.logo h1 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+}
+
+.logo h1 #sp1 {
+  border: 2px solid white;
+  padding: 2px 5px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.logo h1 #sp2 {
+  border: 2px solid white;
+  padding: 2px 5px;
+  border-radius: 2mm;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.logo h1 #sp3 {
+  font-family: cursive;
+}
+
+.navMenu {
+  padding: 0px 0px;
+}
+
+/* .countDown {
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 25%;
+  padding: 4px 4px;
+  height: 50%;
+  display: block;
+  /* background-color: rgba(226, 219, 219, 0.4); */
+/* } */
+
+.accordion-header {
+  background-color: rgb(233, 231, 231);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#collapseOne,
+#collapseTwo {
+  background-color: rgba(224, 220, 220, 0.144);
+}
+
+.accordion-body1 {
+  width: 100vw;
+}
+.countDown {
+  display: flex;
+  margin: 0px 25%;
+}
+
+/* #dateBox {
+  width: 300px;
+  height: 50px;
+  padding: 0;
+  margin-right: 10px;
+} */
+
+.countDown div {
+  position: relative;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  /* background: rgba(119, 101, 101, 0.808); */
+  color: #fff;
+  text-shadow: rgb(6, 10, 240) 0px 0px 20px;
+  margin: 20px 10px;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.countDown div::before {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  width: 100%;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+.countDown #day::before {
+  content: "Days";
+}
+
+.countDown #hour::before {
+  content: "hours";
+}
+
+.countDown #minute::before {
+  content: "minutes";
+}
+
+.countDown #second::before {
+  content: "seconds";
+}
+
+/* .card-img-top {
+  max-width: 400px;
+  min-width: 200px;
+} */
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.card-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: 300;
+}
+
+.list1 {
+  font-family: monospace;
+}
+
+.card {
+  position: center;
+}
+
+.navBar {
+  margin-left: auto;
+  margin-top: -10px;
+}
+
+.navbar-toggler-icon {
+  background-color: rgba(255, 255, 255, 0.952);
+}
+
+.container-fluid {
+  padding: 0 0;
+  background-color: rgba(152, 251, 152, 0);
+}
+
+.bg-light {
+  background-color: #fbfdffcb !important;
+}
+
+.choices {
+  padding: 0 0;
+}
