@@ -1,3 +1,10 @@
+let disableRclick = (maybeWhatever) => {
+  // Disable right click on the whole website, Good for security
+  maybeWhatever.preventDefault();
+};
+
+document.addEventListener("contextmenu", disableRclick); // Activate the diable function
+
 var countDate = new Date("Feb 25, 2021 00:00:00").getTime();
 
 let febQ8 = () => {
